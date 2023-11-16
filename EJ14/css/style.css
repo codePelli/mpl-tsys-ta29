@@ -1,0 +1,42 @@
+body {
+    margin: auto auto;
+}
+
+img {
+    padding-left: 10%;
+    padding-top: 1%;
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+table {
+    border: 1px solid;
+    font-weight: bold;
+    width: 550px;
+    text-align: center;
+    border-color: rgb(175, 171, 171);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+tr {
+    border: 1px solid;
+    border-color: rgb(175, 174, 171);
+    background-color: yellow;
+    color: black;
+    font-weight: normal;
+}
+
+td {
+    border-color: rgb(175, 174, 171);
+    border: 1px solid;
+}
+
+#tdEncabezado{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}

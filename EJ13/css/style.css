@@ -1,0 +1,41 @@
+table{
+    border: 1px solid;
+    font-weight: bold;
+    width: 600px;
+    text-align: center;
+    border-color: gray;
+}
+
+h4{
+    padding-left: 21%;
+    margin: 0%;
+    font-size: smaller;
+}
+
+tr{
+    border: 1px solid;
+    border-color: gray;
+}
+
+td{
+    border-color: gray;
+    border: 1px solid;
+}
+
+.rowOne{
+    background-color: rgb(127, 255, 127);
+}
+
+.rowTwo{
+    background-color: aquamarine;
+    text-align:start;
+}
+
+.rowSix{
+    background-color: pink;
+    text-align:end;
+}
+
+.colOne{
+    color: red;
+}
