@@ -1,0 +1,28 @@
+table{
+    border: 1px solid;
+    font-weight: 500;
+    width: 650px;
+    text-align: center;
+    border-color: gray;
+    color: saddlebrown;
+}
+
+td{
+    border: 1px solid;
+}
+
+#title{
+    background-color: aquamarine;
+}
+
+.orangeCell{
+    background-color: goldenrod;
+}
+
+.yellowCell{
+    background-color: yellow;
+}
+
+.restCells{
+    background-color: rgb(232, 253, 136);
+}
