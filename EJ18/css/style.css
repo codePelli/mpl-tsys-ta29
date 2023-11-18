@@ -1,24 +1,22 @@
-table{
-    border: 1px solid;
+#divRest{
+    width: 200px;
+    height: 100px;
+    background-color: #A4D3FF;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid blue;
 }
-
-#country{
-    text-align: center;
+.divs{
+    background-color: #A4D3FF;
+    background-position: bottom left, bottom left, top left;
+    background-repeat: repeat-x, no-repeat, repeat-x;
+    background-image: url("../img/6.png"), url("../img/7.png"), url("../img/8.png");
 }
-
-td{
-    border: 1px solid;
-}
-
-.row1, .row2{
-    font-weight: bold;
-}
-
-footer{
-    padding-top: 10px;
-}
-
-span{
-    text-decoration: underline;
-    color: blue;
+#divTest{
+    width: 450px;
+    height: 400px;
+    margin-left: 45px;
+    padding: 20px;
+    border: 3px solid;
+    border-color: red;
 }
