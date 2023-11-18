@@ -1,66 +1,111 @@
 body{
+    height: 100%;
     margin: 0;
-    padding-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    gap: 15px;
-    flex-wrap: wrap;
+    text-align: center;
     background-image: url("../img/tableBackground.jpg");
 }
 
-.contenedor{
+.container{
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 100vh;
+    align-items: center;
     justify-content: center;
-    align-items: center;    
-    height:  200px;
-    width: 200px;
-    border: 1px solid;
+
 }
 
-.contenedor2{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    height:  200px;
-    width: 200px;
-    border: 1px solid;
+div div{
+    height: 75%;
+    width: 75%;
 }
 
-.contenedor3{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    height:  200px;
-    width: 200px;
+.divImage{
     border: 1px solid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+
+#a{
+    background-image: url("../img/2.jpg");
+}
+
+#b{
+    background-color: transparent;
+}
+
+#b div{
+    text-align: center;
+    background-position: center;
+    background-image: url("../img/2.jpg");
+}
+
+#c{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url("../img/2.jpg");
+}
+
+#d{
     background-color: white;
 }
 
-.contenedor img{
-    height: 200px;
-    width: 200px;
-}
-
-#photo1{
-    background-image: url("../img/2.jpg");
-}
-
-#photo2{
-    background-image: url("../img/2.jpg");
-    height: 150px;
-    width: 150px;
-}
-
-#photo3{
-    background-image: url("../img/.jpg");
-}
-
-#photo4{
-    background-image: url("../img/2.jpg");
+#d div{
+    text-align: center;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 150px;
-    width: 150px;
-    border: 0px;
+    background-image: url("../img/2.jpg");
+}
+
+#e{
+    background-size: 100%;
+    background-position: center;
+    background-image: url("../img/5.jpg");
+}
+
+#f{
+    background-color: white;
+}
+
+#f div{
+    background-size: 100%;
+    background-position: center;
+    background-image: url("../img/5.jpg");
+
+}
+
+#g{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url("../img/3.jpg");
+}
+
+#h{
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/4.jpg");
+}
+
+#i{
+    background: linear-gradient(to right, #CEF953, #5B6B44);
+}
+
+#j{
+    background: linear-gradient(to bottom, #E9AC97 , #792702 80% 90%, #AF6042);
+}
+
+#k{
+    background: linear-gradient(to bottom, #E4E6CD , #377532);
+}
+
+#l{
+    background: linear-gradient(to bottom, transparent , #367433);
 }
