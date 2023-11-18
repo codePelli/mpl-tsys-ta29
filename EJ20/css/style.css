@@ -1,0 +1,17 @@
+table{
+    border: 1px solid;
+}
+
+td{
+    border: 1px solid;
+}
+
+.categoria{
+    text-align: center;
+    font-weight: bold;
+}
+
+th{
+    border: 1px solid;
+    font-weight: bold;
+}
