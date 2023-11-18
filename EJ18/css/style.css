@@ -1,0 +1,24 @@
+table{
+    border: 1px solid;
+}
+
+#country{
+    text-align: center;
+}
+
+td{
+    border: 1px solid;
+}
+
+.row1, .row2{
+    font-weight: bold;
+}
+
+footer{
+    padding-top: 10px;
+}
+
+span{
+    text-decoration: underline;
+    color: blue;
+}
